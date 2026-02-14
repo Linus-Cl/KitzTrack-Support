@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Support & Hilfe für KitzTrack (iPad-first)" />
+  <title>KitzTrack – Support</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <h1>KitzTrack</h1>
+          <p>Support • Hilfe • Kontakt</p>
+        </div>
+      </div>
+      <nav class="nav" aria-label="Navigation">
+        <a href="./index.html">Support</a>
+        <a href="./privacy.html">Datenschutz</a>
+        <a href="./imprint.html">Impressum</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2>Support für KitzTrack</h2>
+      <p>
+        Hier findest du Hilfe, Antworten auf häufige Fragen und Kontaktmöglichkeiten.
+        Bitte gib bei Support-Anfragen möglichst <strong>iOS-Version</strong>, <strong>Gerät</strong> (z.B. iPad),
+        <strong>App-Version</strong> und eine kurze Beschreibung der Schritte an.
+      </p>
+    </section>
+
+    <section class="grid" aria-label="Inhalt">
+      <article class="card span6">
+        <h3>Kontakt</h3>
+        <p>
+          E-Mail: <a href="mailto:support@DEINE-DOMAIN.DE">support@DEINE-DOMAIN.DE</a><br />
+          (ersetze diese Adresse durch deine echte Support-Mail)
+        </p>
+        <p class="small">
+          Tipp: Lege eine eigene Support-Adresse an (z.B. Google Workspace, iCloud Custom Domain oder Forwarder).
+        </p>
+      </article>
+
+      <article class="card span6">
+        <h3>Schnelle Hilfe</h3>
+        <ul>
+          <li><strong>Keine Verbindung</strong>: Aktionen, die Daten speichern, können ohne Internet abbrechen.</li>
+          <li><strong>Team / Rechte</strong>: Prüfe, ob du im richtigen Team bist und ob du Bearbeitungsrechte hast.</li>
+          <li><strong>Standort</strong>: Standortzugriff wird für die Positionsanzeige auf der Karte verwendet.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>FAQ</h3>
+        <p><strong>1) Ich kann einem Team nicht beitreten – warum?</strong><br />
+          Stelle sicher, dass deine E‑Mail-Adresse verifiziert ist und du eine stabile Internetverbindung hast.
+        </p>
+        <p><strong>2) Warum sehe ich keine Felder?</strong><br />
+          Ohne Team-Zugehörigkeit werden ggf. keine Team-Felder geladen. Trete einem Team bei oder erstelle eins.
+        </p>
+        <p><strong>3) Wo melde ich Bugs?</strong><br />
+          Schicke eine E-Mail an den Support und beschreibe kurz: Gerät, iOS-Version, App-Version und Schritte.
+        </p>
+      </article>
+
+      <article class="card span6">
+        <h3>App-Infos</h3>
+        <dl class="kv">
+          <dt>App</dt><dd>KitzTrack</dd>
+          <dt>Plattform</dt><dd>iPad (optimiert), iPhone (unterstützt)</dd>
+          <dt>Login</dt><dd>Erforderlich (Firebase Auth)</dd>
+          <dt>Backend</dt><dd>Firebase (Auth/Firestore)</dd>
+        </dl>
+      </article>
+
+      <article class="card span6">
+        <h3>Datenschutz</h3>
+        <p>
+          Details findest du in der <a href="./privacy.html">Datenschutzerklärung</a>.
+          Für App Store Connect kannst du diese Seite als „Datenschutz-URL“ verwenden.
+        </p>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="year"></span> KitzTrack</div>
+      <div>
+        <a href="./privacy.html">Datenschutz</a> •
+        <a href="./imprint.html">Impressum</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = String(new Date().getFullYear());
+  </script>
+</body>
+</html>

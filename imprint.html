@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Impressum für KitzTrack" />
+  <title>KitzTrack – Impressum</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <h1>KitzTrack</h1>
+          <p>Impressum</p>
+        </div>
+      </div>
+      <nav class="nav" aria-label="Navigation">
+        <a href="./index.html">Support</a>
+        <a href="./privacy.html">Datenschutz</a>
+        <a href="./imprint.html">Impressum</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2>Impressum</h2>
+      <p>
+        Bitte ergänze die folgenden Angaben entsprechend deiner Situation (Privatperson/Firma, Anschrift, etc.).
+        In Deutschland ist ein Impressum für viele Angebote erforderlich.
+      </p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h3>Angaben gemäß § 5 TMG</h3>
+        <p>
+          <strong>Name:</strong> DEIN NAME<br />
+          <strong>Adresse:</strong> STRASSE, PLZ ORT, LAND<br />
+          <strong>E-Mail:</strong> <a href="mailto:support@DEINE-DOMAIN.DE">support@DEINE-DOMAIN.DE</a>
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Verantwortlich für den Inhalt</h3>
+        <p>
+          DEIN NAME, ADRESSE (falls abweichend)
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Haftungshinweis</h3>
+        <p>
+          Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links.
+          Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
+        </p>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="year"></span> KitzTrack</div>
+      <div>
+        <a href="./index.html">Support</a> •
+        <a href="./privacy.html">Datenschutz</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = String(new Date().getFullYear());
+  </script>
+</body>
+</html>

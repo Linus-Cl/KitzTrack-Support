@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Datenschutzerklärung für KitzTrack" />
+  <title>KitzTrack – Datenschutz</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <h1>KitzTrack</h1>
+          <p>Datenschutzerklärung</p>
+        </div>
+      </div>
+      <nav class="nav" aria-label="Navigation">
+        <a href="./index.html">Support</a>
+        <a href="./privacy.html">Datenschutz</a>
+        <a href="./imprint.html">Impressum</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2>Datenschutzerklärung</h2>
+      <p>
+        Diese Vorlage ist ein Startpunkt und muss von dir rechtlich geprüft/angepasst werden.
+        Besonders wenn du als Anbieter in Deutschland/der EU auftrittst, sind genaue Angaben wichtig.
+      </p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h3>Verantwortlicher</h3>
+        <p>
+          <strong>Name/Firma:</strong> DEIN NAME / DEINE FIRMA<br />
+          <strong>Adresse:</strong> DEINE ADRESSE<br />
+          <strong>E-Mail:</strong> <a href="mailto:support@DEINE-DOMAIN.DE">support@DEINE-DOMAIN.DE</a>
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Welche Daten verarbeitet KitzTrack?</h3>
+        <ul>
+          <li><strong>Account-Daten</strong> (z.B. E-Mail-Adresse) zur Anmeldung/Authentifizierung.</li>
+          <li><strong>Nutzungs-/Inhaltsdaten</strong>, die du in der App eingibst (z.B. Felder, Notizen, Termine).</li>
+          <li><strong>Standortdaten</strong>, wenn du Standortzugriff erlaubst (z.B. für Positionsanzeige auf der Karte).</li>
+          <li><strong>Geräte-/Diagnosedaten</strong> nur, falls du entsprechende Dienste aktivierst (z.B. Crash-Reporting).</li>
+        </ul>
+        <p class="small">
+          Hinweis: Wenn du keine Analyse-/Tracking-SDKs nutzt, solltest du das hier auch klar so schreiben.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Verwendete Dienste</h3>
+        <p>
+          KitzTrack nutzt Firebase (Google) für Authentifizierung und Datenspeicherung.
+        </p>
+        <ul>
+          <li><strong>Firebase Authentication</strong> (Login)</li>
+          <li><strong>Firebase Firestore</strong> (Datenbank)</li>
+        </ul>
+        <p class="small">
+          Anbieter: Google Ireland Limited (für EWR) bzw. Google LLC. Details bitte anhand deiner konkreten Firebase-Konfiguration ergänzen.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Zwecke & Rechtsgrundlagen</h3>
+        <ul>
+          <li>Bereitstellung der App-Funktionen (Art. 6 Abs. 1 lit. b DSGVO – Vertrag/Anbahnung).</li>
+          <li>Sicherheit & Missbrauchsprävention (Art. 6 Abs. 1 lit. f DSGVO – berechtigtes Interesse).</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>Speicherdauer</h3>
+        <p>
+          Daten werden so lange gespeichert, wie es für die Bereitstellung der Funktionen erforderlich ist,
+          oder bis du die Löschung beantragst (sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen).
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Deine Rechte</h3>
+        <ul>
+          <li>Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung</li>
+          <li>Datenübertragbarkeit</li>
+          <li>Widerspruch gegen Verarbeitung (Art. 21 DSGVO)</li>
+          <li>Beschwerde bei einer Aufsichtsbehörde</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>Kontakt</h3>
+        <p>
+          Für Datenschutz-Anfragen: <a href="mailto:privacy@DEINE-DOMAIN.DE">privacy@DEINE-DOMAIN.DE</a>
+          (oder nutze deine Support-Adresse).
+        </p>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="year"></span> KitzTrack</div>
+      <div>
+        <a href="./index.html">Support</a> •
+        <a href="./imprint.html">Impressum</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = String(new Date().getFullYear());
+  </script>
+</body>
+</html>
